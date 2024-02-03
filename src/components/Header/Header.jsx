@@ -5,17 +5,16 @@ import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
-    <header>
-      <div>
+    <header class=' bg-violet-700'>
         <nav>
           <ul>
-            <h1>Your App Name</h1>
-            <li><Link to="profile-details" smooth={true} duration={500}>Profile Details</Link></li>
-            <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
-            {/* Add more navigation links as needed */}
+            <h1 className='text-3xl text-black'>Udesh Indumina </h1>
+            <li><Link to="home">Home</Link></li>
+            <li><Link to="profile-details">Profile Details</Link></li>
+            <li><Link to="skills">Skills</Link></li>
+            <li><Link to="myProject">My Project</Link></li>
           </ul>
         </nav>
-      </div>
     </header>
   );
 };

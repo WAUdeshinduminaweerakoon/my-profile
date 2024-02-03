@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Element } from 'react-scroll';
 import Header from './components/Header/Header';
@@ -8,30 +7,27 @@ import Footer from './components/Footer/Footer';
 import Home from './Home';
 import MyProject from './components/MyProject/MyProject';
 
-
-
 const App = () => {
   return (
-    <Element class="bg-gradient-to-r from-purple-500 to-emerald-400">
+    <Element className="bg-gradient-to-r from-purple-500 to-emerald-400">
       <section>
-        <Header/>
+        <Header />
         <Element name="home">
-          <Home/>
+          <Home />
         </Element>
         <Element name="profile-details">
-          <ProfileDetails/>
+          <ProfileDetails />
         </Element>
         <Element name="skills">
-          <Skills/>
+          <Skills />
         </Element>
         <Element name="myProject">
-          <MyProject/>
+          <MyProject />
         </Element>
-        <Footer/>
+        <Footer />
       </section>
     </Element>
   );
 };
 
 export default App;
-

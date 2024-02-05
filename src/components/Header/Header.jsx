@@ -6,7 +6,7 @@ import CloseIcon from '@mui/icons-material/Close';
 const Header = () => {
   const Links = [
     { name: "home", link: "home" },
-    { name: "profile-details", link: "profile-details" },
+    { name: "profileDetails", link: "profile-details" },
     { name: "skills", link: "skills" },
     { name: "myProject", link: "myProject" },
   ];

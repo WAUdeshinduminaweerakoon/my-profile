@@ -1,6 +1,8 @@
 
 
 import React from 'react';
+import aboutImg from '../../assets/images/my photo.jpg';
+
 
 const ProfileDetails = () => {
   const info =[
@@ -30,18 +32,26 @@ const ProfileDetails = () => {
                   </div>
                 ))}
                 <div>
-                  <br/><br/>
-                <button className='btn-primary'>Download My CV</button>
+                  <br/>
+                  <a href='/My CV/Udesh Indumina CV.pdf' download>
+                    <button className='btn-primary'>Download My CV</button>
+                  </a>             
                 </div>
               </div>   
             </div>
           </div>
+          <div className='flex items-center justify-center flex-1'>
+            <div className='relative w-11/12 h-full lg:w-96 sm:w-10/12 -z-10'>
+              <img src={aboutImg} alt='' className='object-cover w-full rounded-3xl'/>
+            </div>
+
+          </div>
+          
+
+          
 
         </div>
-        <div></div>
       </div>
-      
-      
     </section>
   );
 };

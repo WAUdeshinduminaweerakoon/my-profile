@@ -16,11 +16,11 @@ const ProfileDetails = () => {
         <h3 className='text-4xl font-semibold'>
           About <span className=' text-neutral-300'>Me</span>
         </h3>
-        <p className='my-3 text-lg text-gray-300 '>My introduction</p>
+        <p className='my-3 text-lg text-gray-300 '>My introduction</p><br/>
         <div className='flex flex-col-reverse items-center max-w-6xl gap-12 px-10 mx-auto md:flex-row md:gap-6'>
-          <div >
+          <div className='p-2'>
             <div className='my-3 text-zinc-400'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste et hic qui! Quas
+              <p className='w-11/12 mx-auto leading-7 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste et hic qui! Quas
                  incidunt beatae itaque aperiam doloremque consequatur molestiae!
                   Officia numquam earum molestiae eaque, magni atque mollitia ullam obcaecati.
               </p>
@@ -28,28 +28,23 @@ const ProfileDetails = () => {
                 {info.map((content)=>(
                   <div key={content.text}>
                     <h3 className='text-2xl font-semibold text-white md:text-4xl'>{content.count}<span>+</span>{" "}</h3>
-                    <span className=' text-slate-400'>{content.text}</span>
+                    <span className='text-xl text-slate-400 md:text-base'>{content.text}</span>
                   </div>
                 ))}
-                <div>
+              </div>
+              <div>
                   <br/>
                   <a href='/My CV/Udesh Indumina CV.pdf' download>
                     <button className='btn-primary'>Download My CV</button>
                   </a>             
-                </div>
               </div>   
             </div>
           </div>
-          <div className='flex items-center justify-center flex-1'>
-            <div className='relative w-11/12 h-full lg:w-96 sm:w-10/12 -z-10'>
-              <img src={aboutImg} alt='' className='object-cover w-full rounded-3xl'/>
+          <div className='flex justify-center flex-1 md:mt-0 mt-6items-center'>
+            <div className='relative w-11/12 h-full max-w-sm md:w-60 lg:w-96 sm:w-10/12 -z-10 aboutImg'>
+              <img src={aboutImg} alt='' className='object-cover w-full bg-cyan-600 rounded-3xl'/>
             </div>
-
           </div>
-          
-
-          
-
         </div>
       </div>
     </section>

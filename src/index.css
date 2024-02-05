@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+    @apply font-serif scroll-smooth;
+}
+body{
+    @apply box-border bg-gradient-to-r from-fuchsia-950 to-rose-950
+}
+.btn-primary{
+    @apply flex items-center gap-2 px-6 py-3 mx-auto font-semibold text-white bg-yellow-200 rounded-full md:mx-0;
+}

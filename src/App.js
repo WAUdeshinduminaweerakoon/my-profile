@@ -9,7 +9,7 @@ import MyProject from './components/MyProject/MyProject';
 
 const App = () => {
   return (
-    <Element className="bg-gradient-to-r from-purple-500 to-emerald-400">
+    <Element className="">
       <section>
         <Header />
         <Element name="home">

@@ -5,7 +5,7 @@ import React from 'react';
 const ProfileDetails = () => {
   return (
     <section>
-      <h2>About Me</h2>
+      <h1>About Me</h1>
       <p>
         <s>s</s>
         s

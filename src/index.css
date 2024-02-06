@@ -15,4 +15,7 @@ body{
     content: ' ';
     @apply absolute top-0 left-0 w-full h-full bg-gray-300 rounded-3xl rotate-12 -z-20;
 }
+.swiper-pagination-bullet{
+    @apply bg-white;
+}
 

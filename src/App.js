@@ -8,6 +8,7 @@ import Home from './Home';
 import MyProject from './components/MyProject/MyProject';
 import LookingForI from './components/LookingForI/LookingForI';
 import Contact from './components/Contact/Contact';
+import BackToTopBtn from './components/BackToTopBtn/BackToTopBtn';
 
 
 
@@ -35,6 +36,7 @@ const App = () => {
           <Contact/>
         </Element>
         <Footer />
+        <BackToTopBtn/>
       </section>
     </Element>
   );

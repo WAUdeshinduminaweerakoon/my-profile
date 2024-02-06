@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import Home from './Home';
 import MyProject from './components/MyProject/MyProject';
 import LookingForI from './components/LookingForI/LookingForI';
+import Contact from './components/Contact/Contact';
 
 
 
@@ -29,6 +30,9 @@ const App = () => {
         </Element>
         <Element name="myProject">
           <MyProject />
+        </Element>
+        <Element name="Contact">
+          <Contact/>
         </Element>
         <Footer />
       </section>

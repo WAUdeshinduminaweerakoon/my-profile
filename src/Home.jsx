@@ -16,6 +16,7 @@ const Home = () => {
 
   return (
     <section className='flex flex-col items-center min-h-screen py-10 md:flex-row'>
+      <br/><br/>
       <div className='flex items-center justify-center flex-1 h-full'>
         <img src={Udesh} alt="" className='object-cover h-auto border-8 md:w-7/12 sm:w-6/12 sm:rounded-br-3xl sm:rounded-tl-3xl border-sky-500' />
       </div>
@@ -28,7 +29,7 @@ const Home = () => {
             </span>
             My Name is <span>Udesh Indumina</span>
           </h1>
-          <h4 className='mt-4 text-lg font-bold leading-5 text-orange-400 md:text-2xl md:leading-normals'>Fullstack Developer</h4>
+          <h4 className='mt-4 text-lg font-bold leading-5 text-orange-400 md:text-2xl md:leading-normals'>Software Engineering Undergraduate</h4>
           <button className='mt-8 btn-primary'>Contact Me</button>
           <div className='flex items-center justify-center gap-5 mt-8 text-3xl md:justify-start'>
             {socialMedia.map(({ icon, link }) => (

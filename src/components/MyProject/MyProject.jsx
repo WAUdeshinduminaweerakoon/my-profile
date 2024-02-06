@@ -9,32 +9,31 @@ import {Pagination, Autoplay} from 'swiper/modules'
 const MyProject = () => {
   const projects=[
     {img:project1,
-    name:"project Name",
+    name:"project1 Name",
     githubLink:'https://github.com/WAUdeshinduminaweerakoon/Profile-Web.git',
     live_link:"https://waudeshinduminaweerakoon.github.io/Profile-Web/"
     },
     {img:project1,
-      name:"project Name",
+      name:"project2 Name",
       githubLink:'https://github.com/WAUdeshinduminaweerakoon/Profile-Web.git',
       live_link:"https://waudeshinduminaweerakoon.github.io/Profile-Web/"
     },
     {img:project1,
-        name:"project Name",
+        name:"project3 Name",
         githubLink:'https://github.com/WAUdeshinduminaweerakoon/Profile-Web.git',
         live_link:"https://waudeshinduminaweerakoon.github.io/Profile-Web/"
     },
-    {img:'',
-    githubLink:'',
-    live_link:""
+    {img:project1,
+      name:"project4 Name",
+      githubLink:'https://github.com/WAUdeshinduminaweerakoon/Profile-Web.git',
+      live_link:"https://waudeshinduminaweerakoon.github.io/Profile-Web/"
     },
-    {img:'',
-    githubLink:'',
-    live_link:""
+    {img:project1,
+        name:"project5 Name",
+        githubLink:'https://github.com/WAUdeshinduminaweerakoon/Profile-Web.git',
+        live_link:"https://waudeshinduminaweerakoon.github.io/Profile-Web/"
     },
-    {img:'',
-    githubLink:'',
-    live_link:""
-    },
+    
   ]
   return (
     <section className='px-3 py-10 text-white'>
@@ -46,13 +45,16 @@ const MyProject = () => {
         <p className='mt-2 text-2xl text-gray-600'>My works</p>
       </div>
       <br /><br />
-      <div className='relative flex items-center max-w-6xl px-5 mx-auto'>
+      <div className='relative flex items-center max-w-6xl px-5 mx-auto -z-20'>
         <div className='w-full lg:w-3/3'>
           <Swiper
-            slidesPerView={1.2}
+            slidesPerView={1}
             spaceBetween={20}
             breakpoints={{
               768: {
+                slidesPerView: 2,
+              },
+              1024: {
                 slidesPerView: 3,
               },
             }}

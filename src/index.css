@@ -18,4 +18,12 @@ body{
 .swiper-pagination-bullet{
     @apply bg-white;
 }
-
+input,textarea{
+    @apply bg-gray-500 outline-none rounded-xl p-3
+}
+::placeholder{
+    @apply text-lg
+}
+::selection{
+    @apply bg-pink-800;
+}

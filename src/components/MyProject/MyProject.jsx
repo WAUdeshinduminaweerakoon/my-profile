@@ -72,10 +72,10 @@ const MyProject = () => {
                 <img src={projects.img} alt='' className='rounded-lg' />
                 <h3 className='my-4 text-xl'>{projects.name}</h3>
                 <div className='flex gap-3'>
-                  <a href={projects.githubLink}  className='inline-block px-2 py-1 bg-gray-900 text-amber-200'>
+                  <a href={projects.githubLink} target='_blank' className='inline-block px-2 py-1 bg-gray-900 text-amber-200' rel="noreferrer">
                     Github
                   </a>
-                  <a href={projects.live_link} className='inline-block px-2 py-1 bg-gray-900 text-amber-200'>
+                  <a href={projects.live_link} target='_blank' className='inline-block px-2 py-1 bg-gray-900 text-amber-200' rel="noreferrer">
                     Live Demo
                   </a>
                 </div>

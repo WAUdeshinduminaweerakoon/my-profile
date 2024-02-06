@@ -4,6 +4,7 @@ import LookingImg from '../../assets/images/my photo.jpg'
 const LookingForI = () => {
   return (
     <section className='px-3 py-10 text-white '>
+      <br/><br/>
       <div className="text-center">
         <h3 className='text-4xl font-semibold'><span className='text-red-300 '>I</span> am looking</h3>
         <p className='mt-2 text-2xl text-gray-600 '> An Internship.</p>
@@ -14,7 +15,7 @@ const LookingForI = () => {
           <h2 className='text-2xl font-semibold' >
             I am looking for software engineering internship
           </h2>
-          <p className='max-w-lg mt-4 text-sm leading-6 text-justify  lg:text-left text-gray-50'>
+          <p className='max-w-lg mt-4 text-sm leading-6 text-justify lg:text-left text-gray-50'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eaque et eius at! Sit sunt veritatis repellat temporibus dignissimos reprehenderit eum molestiae ipsa, animi, suscipit voluptatibus vitae nemo praesentium neque?
           </p>
           <button className='mt-10 btn-primary'>Say Hello</button>

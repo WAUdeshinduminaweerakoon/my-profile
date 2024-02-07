@@ -45,7 +45,7 @@ const MyProject = () => {
         <p className='mt-2 text-2xl text-gray-600'>My works</p>
       </div>
       <br /><br />
-      <div className='relative flex items-center max-w-6xl px-5 mx-auto -z-20'>
+      <div className='relative flex items-center max-w-6xl px-5 mx-auto '>
         <div className='w-full lg:w-3/3'>
           <Swiper
             slidesPerView={1}

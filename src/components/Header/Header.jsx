@@ -22,7 +22,7 @@ const Header = () => {
   
 
   return (
-    <header className='fixed top-0 left-0 w-full shadow-md bg-violet-900'>
+    <header className='fixed top-0 left-0 z-10 w-full shadow-md bg-violet-900'>
       <nav className='items-center justify-between py-4 md:flex md:px-10 px-7'>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-950'>
           Udesh Indumina

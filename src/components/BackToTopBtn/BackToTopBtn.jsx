@@ -21,8 +21,8 @@ const BackToTopBtn = () => {
   return show && (
     <button 
       onClick={scrollToTop}
-      className='fixed flex items-center justify-center w-12 h-12 text-white transition-all bg-gray-700 rounded-full cursor-pointer hover:bg-red-400 right-24 bottom-24'>
-        <KeyboardDoubleArrowUpIcon className='w-6 h-6'/>
+      className='fixed flex items-center justify-center w-12 h-12 text-white transition-all bg-gray-700 rounded-full cursor-pointer hover:bg-red-400 right-10 bottom-10'>
+        <KeyboardDoubleArrowUpIcon className='w-8 h-8'/>
     </button>
   );
 };

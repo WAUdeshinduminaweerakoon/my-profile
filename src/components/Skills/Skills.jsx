@@ -62,6 +62,7 @@ const Skills = () => {
                 customLabel={MySkill.name}
               />
             </div>
+           
           </div>
         ))}
       </div>      

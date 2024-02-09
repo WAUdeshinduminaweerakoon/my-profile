@@ -5,12 +5,13 @@ import CloseIcon from '@mui/icons-material/Close';
 
 const Header = () => {
   const Links = [
-    { name: "home", link: "home" },
-    { name: "profileDetails", link: "profile-details" },
-    { name: "skills", link: "skills" },
-    { name: "myProject", link: "myProject" },
-    { name: "LookingForI", link: "LookingForI"},
-    { name: "Contact", link: "Contact"},
+    { name: "Home",            link: "home" },
+    { name: "Profile Details", link: "profile-details" },
+    { name: "My Skills",       link: "skills" },
+    {name:  "Education",       link:"Education"},
+    { name: "My Project",      link: "myProject" },
+    { name: "Looking For",     link: "LookingForI"},
+    { name: "Contact",         link: "Contact"},
     
   ];
 

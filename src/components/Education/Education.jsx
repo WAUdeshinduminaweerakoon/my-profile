@@ -23,8 +23,6 @@ const Education = () => {
             institution:"Dodamgoda Miriswaththa National School",
             detail:"5As, 3Bs and 1Ss",
         },
-       
-
     ];
   return (
     <section>
@@ -52,7 +50,6 @@ const Education = () => {
                 }
             </VerticalTimeline>
         </div>
-
     </section>
   )
 }

@@ -16,7 +16,7 @@ const LookingForI = () => {
             I am looking for software engineering internship
           </h2>
           <p className='max-w-lg mt-4 text-sm leading-6 text-justify lg:text-left text-gray-50'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eaque et eius at! Sit sunt veritatis repellat temporibus dignissimos reprehenderit eum molestiae ipsa, animi, suscipit voluptatibus vitae nemo praesentium neque?
+            I am a third year undergraduate student in Software Engineering at the University of Kelaniya. At this time I am looking for an internship program. A good internship program develops my strong interpersonal skills in a collaborative team environment in addition to my technical skills. I am committed to continuous learning and adaptation that aligns with the fast-paced nature of the software industry. I seek the opportunity to contribute to your organization's mission and further develop my skills while working with your talented team.
           </p>
           <button className='mt-10 btn-primary'>Say Hello</button>
         </div>

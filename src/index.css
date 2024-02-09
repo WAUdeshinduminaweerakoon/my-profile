@@ -10,7 +10,7 @@ body{
     /* @apply box-border bg-gradient-to-r from-blue-900 to-black; */
 }
 .btn-primary{
-    @apply flex items-center gap-2 px-6 py-3 mx-auto font-semibold text-white bg-yellow-200 rounded-full md:mx-0;
+    @apply flex items-center gap-2 px-6 py-3 mx-auto font-semibold text-black bg-yellow-200 rounded-full md:mx-0;
 }
 .aboutImg::after {
     content: ' ';

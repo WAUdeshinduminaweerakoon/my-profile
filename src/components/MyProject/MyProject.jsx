@@ -1,6 +1,10 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import project1 from '../../assets/images/poject1img.png'
+import project2 from '../../assets/images/project1img.png'
+import project3 from '../../assets/images/project3img.png'
+import project4 from '../../assets/images/project4img.png'
+import project5 from '../../assets/images/project5img.png'
+
 
 import "swiper/css"
 import "swiper/css/pagination"
@@ -8,30 +12,26 @@ import {Pagination, Autoplay} from 'swiper/modules'
 
 const MyProject = () => {
   const projects=[
-    {img:project1,
-    name:"project1 Name",
-    githubLink:'https://github.com/WAUdeshinduminaweerakoon/Profile-Web.git',
-    live_link:"https://waudeshinduminaweerakoon.github.io/Profile-Web/"
-    },
-    {img:project1,
-      name:"project2 Name",
+   
+    {img:project2,
+      name:" First my profile(using css and html) ",
       githubLink:'https://github.com/WAUdeshinduminaweerakoon/Profile-Web.git',
       live_link:"https://waudeshinduminaweerakoon.github.io/Profile-Web/"
     },
-    {img:project1,
-        name:"project3 Name",
-        githubLink:'https://github.com/WAUdeshinduminaweerakoon/Profile-Web.git',
-        live_link:"https://waudeshinduminaweerakoon.github.io/Profile-Web/"
+    {img:project3,
+        name:"GAME-HANGMAN(improve the English vocabulary of children)",
+        githubLink:'https://github.com/WAUdeshinduminaweerakoon/GAME-HANGMAN.git',
+        
     },
-    {img:project1,
-      name:"project4 Name",
-      githubLink:'https://github.com/WAUdeshinduminaweerakoon/Profile-Web.git',
-      live_link:"https://waudeshinduminaweerakoon.github.io/Profile-Web/"
+    {img:project4,
+      name:"Employee Management System(ongoing)",
+      githubLink:'https://github.com/WAUdeshinduminaweerakoon/em-system.git',
+      live_link:""
     },
-    {img:project1,
-        name:"project5 Name",
-        githubLink:'https://github.com/WAUdeshinduminaweerakoon/Profile-Web.git',
-        live_link:"https://waudeshinduminaweerakoon.github.io/Profile-Web/"
+    {img:project5,
+        name:"E-commerce Backend(group project)",
+        githubLink:'https://github.com/Birunthaban/ecommerce-backend.git',
+       
     },
     
   ]
@@ -70,9 +70,9 @@ const MyProject = () => {
           {
             projects.map((projects,i)=>(
               <SwiperSlide key={i}>
-              <div className='w-full p-4 h-fit bg-slate-400 rounded-2xl'>
-                <img src={projects.img} alt='' className='rounded-lg' />
-                <h3 className='my-4 text-xl'>{projects.name}</h3>
+              <div className='w-full p-10 h-120 sm:h-100 sm:w-full md:h-100 lg:h-100 xl:h-106 bg-slate-400 rounded-2xl'>
+                <img src={projects.img} alt='' className='object-cover w-full rounded-lg h-60 sm:h-100 sm:w-90 md:h-70 lg:h-60 xl:h-66' />
+                <h3 className='my-4 text-lg'>{projects.name}</h3>
                 <div className='flex gap-3'>
                   <a href={projects.githubLink} target='_blank' className='inline-block px-2 py-1 bg-gray-900 text-amber-200' rel="noreferrer">
                     Github
